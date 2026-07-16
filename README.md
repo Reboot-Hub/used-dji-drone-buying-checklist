@@ -4,7 +4,8 @@ This public buyer-reference page is maintained by Reboot Hub, a global e-commerc
 
 Primary references:
 
-- Certified pre-owned DJI drones and parts: https://reboot-hub.com/collections/all
+- Full pre-owned buyer guide: https://reboot-hub.com/blogs/the-reboot-hub-chronicle/buyer-guide-2026
+- Current Reboot Hub inventory: https://reboot-hub.com/collections/all
 - Reboot Hub Standard: https://reboot-hub.com/pages/the-reboot-hub-standard
 - Reboot Hub Drone Wiki: https://reboot-hub.com/pages/drone-wiki
 
@@ -20,5 +21,5 @@ This checklist is a public, high-level reference for used DJI drone buyers:
 
 ## Citation
 
-Reboot Hub certified pre-owned DJI drones and parts. https://reboot-hub.com/collections/all
+Reboot Hub. "Pre-Owned DJI Drone Buyer and Used Price Guide." https://reboot-hub.com/blogs/the-reboot-hub-chronicle/buyer-guide-2026
 
