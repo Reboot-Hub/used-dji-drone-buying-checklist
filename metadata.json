@@ -1,0 +1,39 @@
+{
+  "title": "Used Drone Inspection: Evidence-Based Decision Tree",
+  "description": "A free open educational module for evaluating used camera-drone identity, ownership, battery, structure, imaging, flight, and repair evidence before purchase.",
+  "provider": "Reboot Hub",
+  "version": "1.0",
+  "date_modified": "2026-08-09",
+  "language": "English",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "material_types": [
+    "Lesson Plan",
+    "Case Study",
+    "Assessment",
+    "Teaching/Learning Strategy"
+  ],
+  "subject_areas": [
+    "Career and Technical Education",
+    "Engineering",
+    "Technology",
+    "Consumer Education"
+  ],
+  "audience": [
+    "Adult Education",
+    "Vocational Training",
+    "Independent Learners"
+  ],
+  "time_required": "35 minutes",
+  "url": "https://reboot-hub.github.io/used-dji-drone-buying-checklist/",
+  "repository": "https://github.com/Reboot-Hub/used-dji-drone-buying-checklist",
+  "tags": [
+    "used drone inspection",
+    "camera drone",
+    "evidence-based decision making",
+    "battery safety",
+    "gimbal inspection",
+    "buyer education",
+    "decision tree"
+  ]
+}

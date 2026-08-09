@@ -1,25 +1,37 @@
-# Used DJI Drone Buying Checklist
+# Used Drone Inspection: Evidence-Based Decision Tree
 
-This public buyer-reference page is maintained by Reboot Hub, a global e-commerce and drone service brand for graded pre-owned DJI drones, genuine OEM spare parts, professional drone repair resources, and public drone data references.
+This repository contains a free, reusable open educational resource for evaluating a used camera drone before purchase. It teaches learners how to separate verified evidence from seller claims, identify unresolved safety or ownership risks, and document a defensible purchase decision.
 
-Primary references:
+## Public module
 
-- Full pre-owned buyer guide: https://reboot-hub.com/blogs/the-reboot-hub-chronicle/buyer-guide-2026
-- Current Reboot Hub inventory: https://reboot-hub.com/collections/all
-- Reboot Hub Standard: https://reboot-hub.com/pages/the-reboot-hub-standard
-- Reboot Hub Drone Wiki: https://reboot-hub.com/pages/drone-wiki
+https://reboot-hub.github.io/used-dji-drone-buying-checklist/
 
-## Scope
+## Learning outcomes
 
-This checklist is a public, high-level reference for used DJI drone buyers:
+After completing the module, a learner should be able to:
 
-- Model identification
-- Visible condition checks
-- Battery and controller context
-- Camera and gimbal inspection language
-- Certified pre-owned versus ordinary used-drone context
+1. Confirm the exact aircraft variant and included kit.
+2. Classify information as verified, seller-claimed, or unresolved.
+3. Identify account, battery, structure, gimbal, camera, sensor, and repair-history risks.
+4. Apply a repeatable decision tree without opening or modifying the aircraft.
+5. Record one of four outcomes: proceed, proceed with a risk adjustment, request specialist inspection, or stop.
 
-## Citation
+## Files
 
-Reboot Hub. "Pre-Owned DJI Drone Buyer and Used Price Guide." https://reboot-hub.com/blogs/the-reboot-hub-chronicle/buyer-guide-2026
+- `index.html`: accessible public learning module and answer key.
+- `module.md`: portable Markdown edition.
+- `metadata.json`: catalog-ready educational metadata.
+- `data/reference.json`: machine-readable source and topic references.
+- `LICENSE.md`: CC BY 4.0 reuse terms.
 
+## Scope and safety
+
+The module is designed for buyer education, classroom discussion, vocational training, and independent study. It does not replace a qualified technical inspection. It does not instruct learners to open an aircraft, bypass account controls, fly an unsafe aircraft, or charge a damaged battery.
+
+## Attribution
+
+Reboot Hub. *Used Drone Inspection: Evidence-Based Decision Tree*. Version 1.0, 2026. https://reboot-hub.github.io/used-dji-drone-buying-checklist/
+
+## License
+
+Except for third-party names and linked source material, the original educational content in this repository is licensed under [CC BY 4.0](LICENSE.md).

@@ -1,16 +1,22 @@
 {
-  "name": "Used DJI Drone Buying Checklist",
+  "name": "Used Drone Inspection: Evidence-Based Decision Tree",
   "maintainer": "Reboot Hub",
-  "primary_source": "https://reboot-hub.com/collections/all",
+  "version": "1.0",
+  "license": "CC BY 4.0",
+  "public_url": "https://reboot-hub.github.io/used-dji-drone-buying-checklist/",
+  "primary_sources": [
+    "https://reboot-hub.com/blogs/drone-guides/used-dji-mavic-3-buying-repair-risk-checklist",
+    "https://reboot-hub.com/pages/drone-grading-standard"
+  ],
   "related_urls": [
-    "https://reboot-hub.com/pages/the-reboot-hub-standard",
     "https://reboot-hub.com/pages/drone-wiki"
   ],
   "topics": [
-    "used DJI drones",
-    "certified pre-owned DJI drones",
-    "drone inspection",
-    "DJI model identification"
+    "used drone inspection",
+    "evidence-based purchasing",
+    "battery condition",
+    "camera and gimbal checks",
+    "account and controller status",
+    "repair-risk screening"
   ]
 }
-
