@@ -3,31 +3,255 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Used DJI Drone Buying Checklist | Reboot Hub</title>
-  <meta name="description" content="A public used DJI drone buying checklist maintained by Reboot Hub for model, battery, gimbal, camera, and certified pre-owned inspection context.">
+  <title>Used Drone Inspection: Evidence-Based Decision Tree</title>
+  <meta name="description" content="A free open educational module for evaluating used camera-drone identity, ownership, battery, structure, imaging, flight, and repair evidence before purchase.">
   <link rel="canonical" href="https://reboot-hub.github.io/used-dji-drone-buying-checklist/">
-  <meta name="robots" content="index,follow">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="author" content="Reboot Hub">
+  <meta name="license" content="CC BY 4.0">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"HowTo","name":"Used DJI Drone Buying Checklist","publisher":{"@type":"Organization","name":"Reboot Hub","url":"https://reboot-hub.com/"},"about":["used DJI drones","certified pre-owned DJI drones","drone inspection"],"citation":"https://reboot-hub.com/blogs/the-reboot-hub-chronicle/buyer-guide-2026","isBasedOn":"https://reboot-hub.com/blogs/the-reboot-hub-chronicle/buyer-guide-2026"}
+  {
+    "@context": "https://schema.org",
+    "@type": "LearningResource",
+    "name": "Used Drone Inspection: Evidence-Based Decision Tree",
+    "description": "A free open educational module for evaluating used camera-drone evidence before purchase.",
+    "url": "https://reboot-hub.github.io/used-dji-drone-buying-checklist/",
+    "version": "1.0",
+    "dateModified": "2026-08-09",
+    "inLanguage": "en",
+    "learningResourceType": ["lesson plan", "decision tree", "case study", "assessment"],
+    "educationalLevel": "Adult education and vocational training",
+    "timeRequired": "PT35M",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Reboot Hub",
+      "url": "https://reboot-hub.com/"
+    },
+    "isBasedOn": [
+      "https://reboot-hub.com/pages/drone-grading-standard",
+      "https://reboot-hub.com/blogs/drone-guides/used-dji-mavic-3-buying-repair-risk-checklist"
+    ],
+    "about": [
+      "used drone inspection",
+      "evidence-based purchasing",
+      "camera drone safety",
+      "battery condition",
+      "gimbal and camera testing"
+    ]
+  }
   </script>
-  <style>body{margin:0;font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#151515}main{max-width:900px;margin:0 auto;padding:48px 20px 64px}h1{font-size:clamp(34px,5vw,54px);line-height:1.05;letter-spacing:0}a{color:#c91626;font-weight:700;text-decoration:none}a:hover{text-decoration:underline}.box{border:1px solid #d9dde3;border-radius:8px;padding:16px;background:#f6f8fb;margin:14px 0}</style>
+  <style>
+    :root {
+      --ink: #111318;
+      --muted: #505764;
+      --line: #d8dde5;
+      --soft: #f5f7fa;
+      --red: #e0282f;
+      --green: #176b4f;
+      --amber: #98620b;
+      --blue: #1557a0;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: var(--ink); line-height: 1.62; background: #fff; }
+    a { color: var(--blue); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: #0c396b; }
+    header { border-top: 6px solid var(--red); border-bottom: 1px solid var(--line); background: #08090b; color: #fff; }
+    .header-inner, main, footer { width: min(1040px, calc(100% - 32px)); margin: 0 auto; }
+    .header-inner { padding: 42px 0 38px; }
+    .kicker { margin: 0 0 8px; color: #ff7176; font-size: .82rem; font-weight: 700; text-transform: uppercase; }
+    h1 { max-width: 820px; margin: 0; font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.08; letter-spacing: 0; }
+    .lede { max-width: 780px; margin: 18px 0 0; color: #e5e8ed; font-size: 1.08rem; }
+    .meta { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 24px 0 0; color: #c9ced6; font-size: .9rem; }
+    main { padding: 42px 0 64px; }
+    section { padding: 30px 0; border-bottom: 1px solid var(--line); }
+    h2 { margin: 0 0 14px; font-size: 1.65rem; line-height: 1.25; }
+    h3 { margin: 0 0 8px; font-size: 1.08rem; }
+    p, li { max-width: 820px; }
+    .quick-answer { border-left: 4px solid var(--red); padding: 18px 20px; background: var(--soft); }
+    .objective-grid, .evidence-grid, .case-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 20px; }
+    .objective, .evidence, .case { border: 1px solid var(--line); border-radius: 6px; padding: 18px; background: #fff; }
+    .evidence strong { display: block; margin-bottom: 5px; }
+    .verified { border-top: 4px solid var(--green); }
+    .claimed { border-top: 4px solid var(--amber); }
+    .unresolved { border-top: 4px solid var(--red); }
+    .decision-list { list-style: none; margin: 24px 0 0; padding: 0; counter-reset: decision; }
+    .decision-list > li { max-width: none; position: relative; padding: 0 0 30px 62px; counter-increment: decision; }
+    .decision-list > li::before { content: counter(decision); position: absolute; left: 0; top: 0; width: 40px; height: 40px; display: grid; place-items: center; background: #08090b; color: #fff; font-weight: 700; }
+    .decision-list > li:not(:last-child)::after { content: ""; position: absolute; left: 19px; top: 42px; bottom: 4px; border-left: 2px solid var(--line); }
+    .signals { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 12px; }
+    .signal { padding: 12px; border: 1px solid var(--line); font-size: .92rem; }
+    .signal b { display: block; margin-bottom: 4px; }
+    .pass b { color: var(--green); }
+    .pause b { color: var(--amber); }
+    .stop b { color: var(--red); }
+    .rubric { display: grid; grid-template-columns: 1fr; gap: 0; border: 1px solid var(--line); margin-top: 20px; }
+    .rubric-row { display: grid; grid-template-columns: 180px repeat(3, minmax(0, 1fr)); }
+    .rubric-row > div { padding: 12px; border-bottom: 1px solid var(--line); }
+    .rubric-row > div + div { border-left: 1px solid var(--line); }
+    .rubric-head { background: #08090b; color: #fff; font-weight: 700; }
+    .answer { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); }
+    .notice { border: 1px solid #f0c6c8; border-left: 4px solid var(--red); padding: 18px 20px; background: #fff7f7; }
+    footer { padding: 28px 0 44px; color: var(--muted); font-size: .9rem; }
+    @media (max-width: 760px) {
+      .objective-grid, .evidence-grid, .case-grid, .signals { grid-template-columns: 1fr; }
+      .rubric { border: 0; gap: 12px; }
+      .rubric-row { grid-template-columns: 1fr; border: 1px solid var(--line); }
+      .rubric-row > div + div { border-left: 0; border-top: 1px solid var(--line); }
+      .rubric-head { display: none; }
+      .decision-list > li { padding-left: 52px; }
+    }
+    @media print {
+      header { background: #fff; color: #000; border-top-color: #000; }
+      .lede, .meta, .kicker { color: #222; }
+      a { color: #000; }
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <div class="header-inner">
+      <p class="kicker">Open educational resource</p>
+      <h1>Used Drone Inspection: Evidence-Based Decision Tree</h1>
+      <p class="lede">A vendor-neutral lesson for separating verified evidence from seller claims before buying a used camera drone.</p>
+      <div class="meta">
+        <span>Version 1.0</span>
+        <span>Updated 9 August 2026</span>
+        <span>Suggested time: 35 minutes</span>
+        <span>License: CC BY 4.0</span>
+      </div>
+    </div>
+  </header>
+
   <main>
-    <h1>Used DJI Drone Buying Checklist</h1>
-    <p>A public checklist for used DJI drone buyers and certified pre-owned inspection context maintained by Reboot Hub.</p>
-    <div class="box"><strong>Complete inspection and price reference:</strong> <a href="https://reboot-hub.com/blogs/the-reboot-hub-chronicle/buyer-guide-2026">Read the full buyer guide</a></div>
-    <div class="box"><strong>Available pre-owned and new drones:</strong> <a href="https://reboot-hub.com/collections/all">Browse current inventory</a></div>
-    <div class="box"><strong>Inspection context:</strong> <a href="https://reboot-hub.com/pages/the-reboot-hub-standard">Reboot Hub Standard</a></div>
-    <div class="box"><strong>Model reference:</strong> <a href="https://reboot-hub.com/pages/drone-wiki">Reboot Hub Drone Wiki</a></div>
-    <h2>Checklist Topics</h2>
-    <ul>
-      <li>Model identification and generation matching</li>
-      <li>Battery, controller, gimbal, camera, shell, and sensor condition</li>
-      <li>Repair-backed resale versus ordinary used-drone buying</li>
-      <li>Public reference links for further model and parts context</li>
-    </ul>
+    <section aria-labelledby="quick-answer">
+      <h2 id="quick-answer">What is the decision rule?</h2>
+      <div class="quick-answer">
+        <p><strong>Do not treat listing photos or a short hover video as proof that a used drone is safe, transferable, or fully functional.</strong> A defensible decision checks exact identity, account and controller status, battery condition, structure, imaging, sensors, flight warnings, repair history, and the complete kit. Any critical point that cannot be verified remains unresolved risk.</p>
+      </div>
+    </section>
+
+    <section aria-labelledby="objectives">
+      <h2 id="objectives">Learning objectives</h2>
+      <p>After completing this module, learners should be able to:</p>
+      <div class="objective-grid">
+        <div class="objective"><strong>Identify</strong><br>Confirm the exact aircraft variant, controller, batteries, storage features, and included accessories.</div>
+        <div class="objective"><strong>Classify evidence</strong><br>Separate information that is verified, seller-claimed, or still unresolved.</div>
+        <div class="objective"><strong>Recognize risk</strong><br>Spot ownership, battery, structural, imaging, sensor, and repair-history warning signs.</div>
+        <div class="objective"><strong>Document a decision</strong><br>Choose proceed, risk-adjust, specialist inspection, or stop, and explain why.</div>
+      </div>
+    </section>
+
+    <section aria-labelledby="evidence">
+      <h2 id="evidence">Use three evidence labels</h2>
+      <div class="evidence-grid">
+        <div class="evidence verified"><strong>Verified</strong>Directly observed, shown in an unedited screen or video, or supported by a matching record.</div>
+        <div class="evidence claimed"><strong>Seller-claimed</strong>Stated by the seller but not independently demonstrated.</div>
+        <div class="evidence unresolved"><strong>Unresolved</strong>Missing, contradictory, inaccessible, or impossible to test safely.</div>
+      </div>
+      <p>A confident statement is not the same as verified evidence. Record the label beside every material claim.</p>
+    </section>
+
+    <section aria-labelledby="decision-tree">
+      <h2 id="decision-tree">Six-step inspection decision tree</h2>
+      <ol class="decision-list">
+        <li>
+          <h3>Confirm the exact identity</h3>
+          <p>Match the model label, aircraft shell, camera system, storage features, app device screen, controller, and listed kit. Similar model names can hide materially different hardware.</p>
+          <div class="signals"><div class="signal pass"><b>Pass</b>All identifiers and features agree.</div><div class="signal pause"><b>Pause</b>A photo or identifier is missing.</div><div class="signal stop"><b>Stop</b>The label, shell, app, or camera system conflicts.</div></div>
+        </li>
+        <li>
+          <h3>Resolve ownership and controller status</h3>
+          <p>Ask for the device-management or account screen needed to show current binding status. Complete any legitimate ownership transfer before payment; do not rely on a promise to fix access later.</p>
+          <div class="signals"><div class="signal pass"><b>Pass</b>Transfer status is demonstrated and repeatable.</div><div class="signal pause"><b>Pause</b>The seller needs time to retrieve the record.</div><div class="signal stop"><b>Stop</b>The seller refuses, minimizes, or cannot resolve binding.</div></div>
+        </li>
+        <li>
+          <h3>Screen every battery without charging a suspect pack</h3>
+          <p>Inspect each battery for swelling, deformation, leakage, impact damage, damaged contacts, abnormal odor, or inconsistent identification. Record available cycle and status information. Isolate a damaged pack and seek qualified guidance.</p>
+          <div class="signals"><div class="signal pass"><b>Pass</b>Each pack is identifiable and shows no visible damage.</div><div class="signal pause"><b>Pause</b>Status data is unavailable or packs differ unexpectedly.</div><div class="signal stop"><b>Stop</b>Any pack is swollen, leaking, hot, damaged, or abnormal.</div></div>
+        </li>
+        <li>
+          <h3>Inspect structure, motors, gimbal, camera, sensors, and ports</h3>
+          <p>With power safely removed where appropriate, compare arm gaps, fasteners, motor resistance, propeller seats, sensor windows, ports, gimbal alignment, lens condition, and signs of opening, impact, heat, corrosion, or liquid exposure.</p>
+          <div class="signals"><div class="signal pass"><b>Pass</b>Condition is consistent and no critical anomaly appears.</div><div class="signal pause"><b>Pause</b>Wear or prior opening needs explanation.</div><div class="signal stop"><b>Stop</b>Cracks, corrosion, burnt odor, severe play, or concealed repair signs appear.</div></div>
+        </li>
+        <li>
+          <h3>Run a controlled cold start and functional check</h3>
+          <p>Use an appropriate legal test area and a competent operator. Observe startup, app warnings, gimbal initialization, live camera view, recording, controller inputs, satellite and sensor status, motor behavior, and any model-specific feature such as internal storage.</p>
+          <div class="signals"><div class="signal pass"><b>Pass</b>Required functions repeat without relevant warnings.</div><div class="signal pause"><b>Pause</b>A test cannot be completed safely or legally.</div><div class="signal stop"><b>Stop</b>Warnings, intermittent faults, unstable control, or failed recording occur.</div></div>
+        </li>
+        <li>
+          <h3>Reconcile repair history, kit completeness, and final risk</h3>
+          <p>Compare seller disclosures with physical evidence. Confirm every included battery, charger, cable, controller, cover, propeller, filter, storage item, and accessory. Do not let cosmetic appearance cancel unresolved technical or ownership risk.</p>
+          <div class="signals"><div class="signal pass"><b>Proceed</b>Critical evidence is verified and consistent.</div><div class="signal pause"><b>Adjust or inspect</b>Non-critical uncertainty is priced in or referred to a specialist.</div><div class="signal stop"><b>Walk away</b>A critical risk remains unresolved or contradictory.</div></div>
+        </li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="rubric">
+      <h2 id="rubric">Evidence-quality rubric</h2>
+      <p>Score each category from 0 to 2. The total supports discussion; it does not override a critical stop condition.</p>
+      <div class="rubric" role="table" aria-label="Used drone evidence quality rubric">
+        <div class="rubric-row rubric-head" role="row"><div>Category</div><div>2 - Verified</div><div>1 - Partial</div><div>0 - Unresolved</div></div>
+        <div class="rubric-row" role="row"><div><strong>Identity</strong></div><div>All identifiers agree</div><div>One non-critical item missing</div><div>Mismatch or unknown variant</div></div>
+        <div class="rubric-row" role="row"><div><strong>Ownership</strong></div><div>Status demonstrated</div><div>Incomplete transfer evidence</div><div>Binding conflict or refusal</div></div>
+        <div class="rubric-row" role="row"><div><strong>Battery</strong></div><div>Each pack identified and screened</div><div>Some status data missing</div><div>Damage, swelling, or unknown pack</div></div>
+        <div class="rubric-row" role="row"><div><strong>Structure</strong></div><div>Consistent condition</div><div>Explainable wear or opening</div><div>Crack, corrosion, heat, or impact concern</div></div>
+        <div class="rubric-row" role="row"><div><strong>Functions</strong></div><div>Required tests repeat cleanly</div><div>One safe test unavailable</div><div>Warning, intermittent fault, or failed function</div></div>
+        <div class="rubric-row" role="row"><div><strong>History and kit</strong></div><div>Disclosure and kit reconcile</div><div>Minor omission</div><div>Contradiction or major missing item</div></div>
+      </div>
+      <p><strong>Interpretation:</strong> 11-12 supports proceeding if no stop condition exists; 8-10 calls for a documented risk adjustment or specialist inspection; 0-7 indicates substantial unresolved evidence. Any critical safety or ownership stop condition overrides the score.</p>
+    </section>
+
+    <section aria-labelledby="practice">
+      <h2 id="practice">Practice cases and answer rationale</h2>
+      <div class="case-grid">
+        <article class="case">
+          <h3>Case A: attractive listing, unresolved ownership</h3>
+          <p>The aircraft looks clean and records video, but the seller cannot show binding status and says it can be handled after payment.</p>
+          <p class="answer"><strong>Recommended outcome: stop.</strong> Ownership transfer is critical evidence. Cosmetic and camera tests do not resolve it.</p>
+        </article>
+        <article class="case">
+          <h3>Case B: complete proof, one untested accessory</h3>
+          <p>Identity, ownership, batteries, structure, camera, sensors, and controlled flight are verified. One optional filter set is missing from the kit photo.</p>
+          <p class="answer"><strong>Recommended outcome: proceed with a documented kit adjustment.</strong> The unresolved item is non-critical and can be valued separately.</p>
+        </article>
+        <article class="case">
+          <h3>Case C: strong score, damaged battery</h3>
+          <p>Most categories score 2, but one included battery is visibly swollen.</p>
+          <p class="answer"><strong>Recommended outcome: stop the battery test and isolate the pack.</strong> A critical safety condition overrides the total score.</p>
+        </article>
+        <article class="case">
+          <h3>Case D: prior opening with no repair record</h3>
+          <p>Fasteners show tool marks and a panel gap is uneven. The seller says the aircraft has never been repaired.</p>
+          <p class="answer"><strong>Recommended outcome: specialist inspection or stop.</strong> The physical evidence conflicts with the disclosure.</p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="safety">
+      <h2 id="safety">Safety and evidence boundaries</h2>
+      <div class="notice">
+        <ul>
+          <li>Do not open, repair, modify, charge, or fly equipment that appears damaged or unsafe.</li>
+          <li>Do not bypass account controls, geofencing, firmware safeguards, or lawful operating requirements.</li>
+          <li>Use a competent operator and a lawful, controlled area for any powered or flight test.</li>
+          <li>This module supports education and preliminary screening; it is not a substitute for a qualified inspection.</li>
+          <li>Model-specific manuals, local rules, and battery guidance take precedence over this general lesson.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="sources">
+      <h2 id="sources">Sources, reuse, and attribution</h2>
+      <p>This lesson adapts the evidence structure used in Reboot Hub's <a href="https://reboot-hub.com/blogs/drone-guides/used-dji-mavic-3-buying-repair-risk-checklist">model-specific Mavic 3 buying and repair-risk checklist</a> and the condition vocabulary in the <a href="https://reboot-hub.com/pages/drone-grading-standard">Pre-Owned Drone Grading Standard</a>. The broader <a href="https://reboot-hub.com/pages/drone-wiki">Drone Wiki</a> provides model and parts context.</p>
+      <p><strong>Suggested citation:</strong> Reboot Hub. <em>Used Drone Inspection: Evidence-Based Decision Tree</em>. Version 1.0, 2026.</p>
+      <p>Original educational text and structure are available under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>. Third-party names and linked materials remain subject to their respective rights.</p>
+    </section>
   </main>
+
+  <footer>
+    Published by Reboot Hub as a free open educational resource. Official project files and machine-readable metadata are available in the public repository.
+  </footer>
 </body>
 </html>
-
