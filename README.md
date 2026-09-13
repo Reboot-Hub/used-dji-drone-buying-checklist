@@ -6,6 +6,8 @@ This repository contains a free, reusable open educational resource for evaluati
 
 https://reboot-hub.github.io/used-dji-drone-buying-checklist/
 
+Japanese buyer-education edition: https://reboot-hub.github.io/used-dji-drone-buying-checklist/ja/
+
 ## Learning outcomes
 
 After completing the module, a learner should be able to:

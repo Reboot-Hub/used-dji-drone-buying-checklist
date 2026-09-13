@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ja">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>中古 DJI ドローンを買う前に見るべき7項目 | Reboot Hub OER</title>
+<meta name="description" content="中古 DJI ドローンの購入前に、価格、写真、付属品、機体の状態、修理履歴と取引条件を分けて確認する無料の日本語教材。記録用チェックリストと練習問題付き。">
+<meta name="robots" content="index,follow,max-image-preview:large"><meta name="author" content="Reboot Hub"><meta name="license" content="CC BY 4.0">
+<link rel="canonical" href="https://reboot-hub.github.io/used-dji-drone-buying-checklist/ja/">
+<style>
+    :root {
+      --ink: #111318;
+      --muted: #505764;
+      --line: #d8dde5;
+      --soft: #f5f7fa;
+      --red: #e0282f;
+      --green: #176b4f;
+      --amber: #98620b;
+      --blue: #1557a0;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: var(--ink); line-height: 1.62; background: #fff; }
+    a { color: var(--blue); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: #0c396b; }
+    header { border-top: 6px solid var(--red); border-bottom: 1px solid var(--line); background: #08090b; color: #fff; }
+    .header-inner, main, footer { width: min(1040px, calc(100% - 32px)); margin: 0 auto; }
+    .header-inner { padding: 42px 0 38px; }
+    .kicker { margin: 0 0 8px; color: #ff7176; font-size: .82rem; font-weight: 700; text-transform: uppercase; }
+    h1 { max-width: 820px; margin: 0; font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.08; letter-spacing: 0; }
+    .lede { max-width: 780px; margin: 18px 0 0; color: #e5e8ed; font-size: 1.08rem; }
+    .meta { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 24px 0 0; color: #c9ced6; font-size: .9rem; }
+    main { padding: 42px 0 64px; }
+    section { padding: 30px 0; border-bottom: 1px solid var(--line); }
+    h2 { margin: 0 0 14px; font-size: 1.65rem; line-height: 1.25; }
+    h3 { margin: 0 0 8px; font-size: 1.08rem; }
+    p, li { max-width: 820px; }
+    .quick-answer { border-left: 4px solid var(--red); padding: 18px 20px; background: var(--soft); }
+    .objective-grid, .evidence-grid, .case-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 20px; }
+    .objective, .evidence, .case { border: 1px solid var(--line); border-radius: 6px; padding: 18px; background: #fff; }
+    .evidence strong { display: block; margin-bottom: 5px; }
+    .verified { border-top: 4px solid var(--green); }
+    .claimed { border-top: 4px solid var(--amber); }
+    .unresolved { border-top: 4px solid var(--red); }
+    .decision-list { list-style: none; margin: 24px 0 0; padding: 0; counter-reset: decision; }
+    .decision-list > li { max-width: none; position: relative; padding: 0 0 30px 62px; counter-increment: decision; }
+    .decision-list > li::before { content: counter(decision); position: absolute; left: 0; top: 0; width: 40px; height: 40px; display: grid; place-items: center; background: #08090b; color: #fff; font-weight: 700; }
+    .decision-list > li:not(:last-child)::after { content: ""; position: absolute; left: 19px; top: 42px; bottom: 4px; border-left: 2px solid var(--line); }
+    .signals { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 12px; }
+    .signal { padding: 12px; border: 1px solid var(--line); font-size: .92rem; }
+    .signal b { display: block; margin-bottom: 4px; }
+    .pass b { color: var(--green); }
+    .pause b { color: var(--amber); }
+    .stop b { color: var(--red); }
+    .rubric { display: grid; grid-template-columns: 1fr; gap: 0; border: 1px solid var(--line); margin-top: 20px; }
+    .rubric-row { display: grid; grid-template-columns: 180px repeat(3, minmax(0, 1fr)); }
+    .rubric-row > div { padding: 12px; border-bottom: 1px solid var(--line); }
+    .rubric-row > div + div { border-left: 1px solid var(--line); }
+    .rubric-head { background: #08090b; color: #fff; font-weight: 700; }
+    .answer { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); }
+    .notice { border: 1px solid #f0c6c8; border-left: 4px solid var(--red); padding: 18px 20px; background: #fff7f7; }
+    footer { padding: 28px 0 44px; color: var(--muted); font-size: .9rem; }
+    @media (max-width: 760px) {
+      .objective-grid, .evidence-grid, .case-grid, .signals { grid-template-columns: 1fr; }
+      .rubric { border: 0; gap: 12px; }
+      .rubric-row { grid-template-columns: 1fr; border: 1px solid var(--line); }
+      .rubric-row > div + div { border-left: 0; border-top: 1px solid var(--line); }
+      .rubric-head { display: none; }
+      .decision-list > li { padding-left: 52px; }
+    }
+    @media print {
+      header { background: #fff; color: #000; border-top-color: #000; }
+      .lede, .meta, .kicker { color: #222; }
+      a { color: #000; }
+    }
+  
+body { font-family: -apple-system, BlinkMacSystemFont, "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif; line-height: 1.85; }
+h1 { line-height: 1.35; } h2 { line-height: 1.5; } .record { white-space: pre-wrap; overflow-wrap: anywhere; background: var(--soft); padding: 18px; } @media print { .record { break-inside: avoid; } }
+</style></head>
+<body>
+<header><div class="header-inner"><p class="kicker">無料のオープン教材 · 日本語</p><h1>中古 DJI ドローンを買う前に見るべき7項目</h1><p class="lede">価格だけでは判断できない修理リスクを、確認できた証拠・販売者の説明・不明点に分けて整理します。</p><div class="meta"><span>日本語版 1.0</span><span>2026年9月14日</span><span>想定学習時間：約20分</span><span>CC BY 4.0</span></div></div></header>
+<main>
+<p><a href="../" lang="en">English: Used Drone Inspection</a></p>
+<section><h2>最初の判断：不明点を「問題なし」にしない</h2><div class="quick-answer"><p>安い価格、きれいな写真、短い飛行動画だけでは、機体の安全性、譲渡の可否、すべての機能を確認できません。購入前に分かっていることと分からないことを書き出し、重要な不明点が残れば支払いを保留します。</p></div><p>この教材の目標は、修理方法を覚えることではありません。証拠を整理し、「確認を続ける」「条件を再検討する」「専門家に確認する」「購入を見送る」のどれを選ぶか、理由を説明できるようになることです。</p></section>
+<section><h2>証拠には3つのラベルを付ける</h2><div class="evidence-grid"><div class="evidence verified"><strong>確認できた</strong>対象の機体と対応する写真、画面、記録などで、その項目を確認できた状態です。全機能の安全性を保証する意味ではありません。</div><div class="evidence claimed"><strong>販売者の説明</strong>「落下歴なし」「使用回数が少ない」など、説明はあるものの、裏付けをまだ確認できていない状態です。</div><div class="evidence unresolved"><strong>不明</strong>資料がない、対象機体と一致しない、説明と写真が食い違う状態です。空欄を推測で埋めないでください。</div></div></section>
+<section><h2>購入前の7項目</h2><ol class="decision-list">
+<li><h3>価格は比較の出発点にする</h3><p>同じモデルでも、送信機、バッテリー数、付属品、状態、保証条件が違えば単純比較はできません。まず同じ構成にそろえて比べ、表示価格と最終的な購入費用も区別します。</p><p>公開価格サンプルの範囲は <a href="https://reboot-hub.com/pages/reboot-hub-data">Reboot Hub Data</a> で確認できます。Q3 2026公開版は、251件のカタログ構成を43件のモデル別集計にまとめたものです。単一販売者の過去の掲載価格であり、市場全体の相場、成約価格、現在の在庫ではありません。元の251行が公開されているという意味でもありません。</p></li>
+<li><h3>写真・動画が購入対象の機体か確認する</h3><p>正確なモデル名とバリエーション、販売写真と対象機体の対応を確認します。必要な識別情報は販売者と非公開で照合し、アカウント画面や個人情報を公開投稿しないでください。</p><p>電源投入や飛行の記録がある場合は、撮影時点と機体の対応、表示された警告を確認します。動画があっても、撮影されていない機能まで正常とは判断しません。所有・アカウント・送信機の状態が不明な場合は、公式の手順に沿って解決できるまで保留します。</p></li>
+<li><h3>機体と付属品を別々に確認する</h3><p>バッテリー、送信機、充電器、ハブ、ケーブル、収納用品を一覧にします。「本体が良好」という説明は、付属バッテリーの状態や機器同士の互換性を保証しません。</p><p>膨張、漏れ、変形、異常な熱や臭いなどがあるバッテリーは、購入判断のために充電や飛行を試す対象にしません。分解せず、機種別の公式案内と適切な専門家の判断に従ってください。</p></li>
+<li><h3>カメラ・ジンバル・機体外装の証拠を確認する</h3><p>外装の割れ、隙間、ねじ周辺、カメラ映像、ジンバルの警告など、見える事実を記録します。傷や工具跡だけで故障原因や落下歴を断定することも、見た目がきれいだから問題なしとすることも避けます。</p><p>疑わしい機体を自分で開けたり、危険な状態で試験飛行したりする必要はありません。販売者の説明と資料が食い違う場合は、専門家による確認か見送りを選びます。</p></li>
+<li><h3>修理歴と交換部品の説明を区別する</h3><p>修理がある場合は、時期、対象部位、交換内容、作業後の確認記録を求めます。資料がなければ「修理なし」ではなく「履歴不明」です。</p><p>参考として、<a href="https://reboot-hub.com/blogs/drone-guides/used-dji-mavic-3-buying-repair-risk-checklist">Mavic 3の購入・修理リスクチェックリスト</a> は確認項目を具体化した例です。他モデルに同じ部品構成や判定をそのまま当てはめないでください。</p></li>
+<li><h3>グレード・保証・利用条件を一つにまとめない</h3><p>外観グレード、バッテリー状態、アクティベーション、アカウントの関連付け、地域別の利用条件、保証、メーカーサービスの対象可否は別の項目です。それぞれについて対象機体に適用される条件を確認します。</p><p><a href="https://reboot-hub.com/pages/drone-grading-standard">Reboot Hubの中古ドローン評価基準</a> は販売者自身の評価・開示の枠組みです。DJIの認定や、他社にも共通する統一規格を意味しません。購入時の返品・保証条件は、その販売者の最新の文書を確認してください。</p></li>
+<li><h3>支払う前に、判断と未解決事項を残す</h3><p>重要な不明点が解消したら、確認した構成と条件で検討を続けます。証拠不足なら保留、説明と資料の矛盾や安全上の懸念があるなら専門家への確認または見送りです。</p><p>割引を受けても、安全性や所有・譲渡の不明点が解消するわけではありません。価格の再交渉と、解決が必要な条件を区別してください。</p></li>
+</ol></section>
+<section><h2>コピーして使える確認記録</h2><div class="record">確認日：
+正確なモデル・構成：
+付属品と各状態：
+確認できた証拠（項目・資料・日付）：
+販売者の説明だけに基づく事項：
+不明点・食い違い：
+返品・保証などの適用条件：
+次の行動と理由：
+再検討に必要な追加資料：</div><p>シリアル番号や個人情報を含む記録は、公開せず安全に保管してください。</p></section>
+<section><h2>練習問題</h2><div class="case-grid"><article class="case"><h3>ケースA：安いが構成が違う</h3><p>同じ機種の2件を比較しています。一方には送信機とバッテリー2個が含まれ、もう一方は本体のみです。安い方が得と言えますか。</p><p class="answer"><strong>考え方：</strong>まだ判断できません。含まれる構成と状態、必要になる追加費用をそろえて比較します。</p></article><article class="case"><h3>ケースB：説明と写真が一致しない</h3><p>販売者は「未修理」と説明していますが、外装の隙間と工具跡が見えます。写真だけで修理内容を推定してよいでしょうか。</p><p class="answer"><strong>考え方：</strong>推定で埋めません。食い違いを記録し、追加資料または専門家の確認を求めます。解消しなければ見送ります。</p></article></div></section>
+<section><h2>出典・利用条件・開示</h2><p>既存の英語版購入前点検教材と公開参考資料をもとに、日本語の購入者向けに構成した教材です。実際の購入体験や個別機体の査定結果を装ったものではありません。</p><p>原文・構成のライセンスは <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> です。引用例：Reboot Hub「中古 DJI ドローンを買う前に見るべき7項目」日本語版1.0、2026年。第三者の名称、商標、リンク先資料はそれぞれの権利・条件に従います。</p><p>開示：著者はReboot Hubと関係があります。Reboot Hubは独立した修理・再販事業者であり、DJIの公式認定、提携、推奨を意味しません。本教材は一般的な購入前の情報整理を支援するもので、資格を持つ専門家による点検、機種別の公式説明、適用される法令に代わるものではありません。</p></section>
+</main><footer><p>Reboot Hub · 無料公開教材 · <a href="../">English edition</a></p></footer>
+</body></html>
